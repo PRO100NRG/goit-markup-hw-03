@@ -11,6 +11,12 @@ body {
   color: var(--first-list-color);
   margin: 0;
 }
+.container{
+  margin: 0 auto;
+  padding: 0 12px;
+  width: 1152px;
+  display: flex;
+}
 
 .link {
   text-decoration: none;
@@ -21,22 +27,20 @@ body {
 /* хэдер */
 .logo-studio {
   width: 71px;
-  height: 24px;
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3;
   display: flex;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-list-color);
+
 }
 .logo {
   width: 44px;
-  height: 24px;
-
-  font-family: "Raleway";
+ font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -46,7 +50,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-hover-color);
+
 }
+
 
 .header-nav {
   font-weight: 600;
@@ -54,11 +60,23 @@ body {
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: var(--first-list-color);
+  display: flex;
+margin-left: 40px;
+
 }
 .header-nav.link:hover,
 .header-nav.link:focus {
   color: var(--header-hover-color);
 }
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: auto;
+}
+
+
 
 .header-contacts {
   width: 151px;
@@ -69,6 +87,7 @@ body {
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: var(--second-list-color);
+  
 }
 .header-contacts.link:hover,
 .header-contacts.link:focus {
@@ -79,12 +98,14 @@ body {
   background-color: #2e2f42;
 }
 .section-title {
-  font-weight: 600;
+
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin: 0;
 }
 .oder:hover,
 .oder:focus {
@@ -102,6 +123,12 @@ align-items: center;
 letter-spacing: 0.04em;
 background-color: var(--header-hover-color);
 color: #FFFFFF;
+
+padding: 16px 32px;
+border: 1px solid transparent;
+border-radius: 4px;
+margin: auto;
+
 
 }
 /* вторая секция */
