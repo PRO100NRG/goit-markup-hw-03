@@ -13,9 +13,12 @@ body {
 }
 .container{
   margin: 0 auto;
-  padding: 0 12px;
   width: 1152px;
+
+}
+.flex{
   display: flex;
+ 
 }
 
 .link {
@@ -31,7 +34,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3;
-  display: flex;
+
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -96,16 +99,24 @@ margin-left: 40px;
 /* первая секция */
 .section{
   background-color: #2e2f42;
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
+
 .section-title {
 
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+ 
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0;
+
+padding-bottom: 64px;
+
+
 }
 .oder:hover,
 .oder:focus {
@@ -118,8 +129,7 @@ font-weight: 600;
 font-size: 16px;
 line-height: 1.18;
 cursor: pointer;
-display: flex;
-align-items: center;
+margin: auto;
 letter-spacing: 0.04em;
 background-color: var(--header-hover-color);
 color: #FFFFFF;
@@ -127,12 +137,21 @@ color: #FFFFFF;
 padding: 16px 32px;
 border: 1px solid transparent;
 border-radius: 4px;
-margin: auto;
-
-
+text-align: center;
 }
 /* вторая секция */
-
+.tools{
+margin-top: 120px;
+margin-bottom: 120px;
+}
+.tools-list{
+  display: flex;
+  gap: 24px;
+  margin: 0;
+} 
+.tools-item{
+  
+}
 .tools-title {
   width: 264px;
   height: 24px;
@@ -141,11 +160,15 @@ margin: auto;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--first-list-color);
+  margin-bottom: 8px;
+  text-align: left;
+  margin-top: 0px;
 }
 .tools-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 /* третяя секция */
 
@@ -157,11 +180,39 @@ margin: auto;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--first-list-color);
+  margin-top: 0px;
+  margin-bottom: 74px;
 }
+.doing-img .list{
+  gap: 24px;
+  display: flex;
+  text-align: center;
+}
+.doing-img{
+  margin-bottom: 120px;
+}
+
+
 /* четвертая секция */
 .team {
   background-color: rgba(244, 244, 253, 1);
+  padding-bottom: 120px;
 }
+.team .flex{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  gap: 24px;
+  padding: 0px 0px 32px;
+gap: 32px;
+
+}
+
+.team-foto{
+  margin-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+
 .team-title {
   font-weight: 600;
   font-size: 36px;
@@ -170,6 +221,8 @@ margin: auto;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--first-list-color);
+  margin-bottom: 72px;
+  margin-top: 0px,auto;
 }
 .team-title-nm {
   font-weight: 500;
@@ -177,11 +230,17 @@ margin: auto;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--first-list-color);
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-job {
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 32px;
 }
 /* футер */
 
