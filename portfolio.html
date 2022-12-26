@@ -11,34 +11,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portrfolio</title>
   </head>
   <body class="portfolio-body">
     <!-- хэдер -->
 
-    <header>
-      <a href="./index.html" class="logo link">
-        web <span class="logo-studio link">studio</span></a
-      >
-      <nav>
-        <ul class="header-nav list">
-          <li><a class="header-nav link" href="./index.html">Studio</a></li>
-          <li>
-            <a class="header-nav link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="header-nav link" href="#">Contacts</a></li>
+    <header class="header">
+      <div class="container flex">
+        <a href="./index.html" class="logo link">
+          web <span class="logo-studio">studio</span></a
+        >
+        <nav>
+          <ul class="header-nav list">
+            <li><a class="header-nav link" href="./index.html">Studio</a></li>
+            <li>
+              <a class="header-nav link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="header-nav link" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <a class="header-contacts link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+          <a class="header-contacts link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </ul>
-      </nav>
-      <a class="header-contacts link" href="tel:+110001111111"
-        >+11 (000) 111-11-11</a
-      >
-      <a class="header-contacts link" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
+      </div>
     </header>
     <main>
       <!-- главная страница -->
-      <section>
+      <!-- список кнопок -->
+      <section class="portfolio">
+        <div class="container">
         <h2 class="visually-hidden">Filters</h2>
         <ul class="button list">
           <li class="filter">
@@ -57,6 +63,9 @@
             <button class="port" type="button">Marketing</button>
           </li>
         </ul>
+        <!-- сетка фоток -->
+
+
         <h2 class="visually-hidden">Projekts</h2>
         <ul class="picture list">
           <li class="picture-item">
@@ -67,8 +76,10 @@
               width="360"
               height="300"
             />
+            <div class="foto-text">
             <h3 class="picture-title">Banking App Interface Concept</h3>
             <p class="picture-text">App</p>
+          </div>
           </li>
           <li class="picture-item">
             <img
@@ -78,8 +89,10 @@
               width="360"
               height="300"
             />
+            <div class="foto-text">
             <h3 class="picture-title">Cashless Payment</h3>
             <p class="picture-text">Marketing</p>
+          </div>
           </li>
           <li class="picture-item">
             <img
@@ -89,8 +102,10 @@
               width="360"
               height="300"
             />
+            <div class="foto-text">
             <h3 class="picture-title">Meditaion App</h3>
             <p class="picture-text">App</p>
+          </div>
           </li>
           <li class="picture-item">
             <img
@@ -100,8 +115,10 @@
               width="360"
               height="300"
             />
+            <div class="foto-text">
             <h3 class="picture-title">Taxi Service</h3>
             <p class="picture-text">Marketing</p>
+          </div>
           </li>
           <li class="picture-item">
             <img
@@ -111,8 +128,10 @@
               width="360"
               height="300"
             />
+            <div class="foto-text">
             <h3 class="picture-title">Screen Illustrations</h3>
             <p class="picture-text">Design</p>
+          </div>
           </li>
           <li class="picture-item">
             <img
@@ -122,8 +141,10 @@
               width="360"
               height="300"
             />
+            <div class="foto-text">
             <h3 class="picture-title">Online Courses</h3>
             <p class="picture-text">Marketing</p>
+          </div>
           </li>
           <li class="picture-item">
             <img
@@ -133,19 +154,23 @@
               width="360"
               height="300"
             />
+            <div class="foto-text">
             <h3 class="picture-title">Instagram Stories Concept</h3>
             <p class="picture-text">Design</p>
+          </div>
           </li>
           <li class="picture-item">
             <img
-              class="picture"
+              class="picture-img"
               src="./imeges/img15.jpg"
               alt="food"
               width="360"
               height="300"
             />
+            <div class="foto-text">
             <h3 class="picture-title">Organic Food</h3>
             <p class="picture-text">Web Site</p>
+          </div>
           </li>
           <li class="picture-item">
             <img
@@ -155,15 +180,19 @@
               width="360"
               height="300"
             />
+            <div class="foto-text">
             <h3 class="picture-title">Fresh Coffee</h3>
             <p class="picture-text">Web Site</p>
+          </div>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
     <!-- футер -->
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="logo link">
         web <span class="logo-studio-hd link">studio</span></a
       >
@@ -171,6 +200,7 @@
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions
       </p>
+    </div>
     </footer>
   </body>
 </html>

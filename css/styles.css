@@ -2,7 +2,7 @@
   --first-list-color: rgba(46, 47, 66, 1);
   --sercond-list-colo: rgba(67, 68, 85, 1);
   --header-hover-color: #4d5ae5;
-  --typical-lh: 1.5; 
+  --typical-lh: 1.5;
 }
 
 body {
@@ -11,14 +11,13 @@ body {
   color: var(--first-list-color);
   margin: 0;
 }
-.container{
+.container {
   margin: 0 auto;
   width: 1152px;
-
+  padding: 0 12px;
 }
-.flex{
+.flex {
   display: flex;
- 
 }
 
 .link {
@@ -35,15 +34,13 @@ body {
   font-size: 18px;
   line-height: 1.3;
 
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-list-color);
-
 }
 .logo {
   width: 44px;
- font-family: "Raleway";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -53,19 +50,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-hover-color);
-
 }
 
-
 .header-nav {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: var(--first-list-color);
   display: flex;
-margin-left: 40px;
-
+  margin-left: 40px;
 }
 .header-nav.link:hover,
 .header-nav.link:focus {
@@ -79,8 +73,6 @@ margin-left: 40px;
   margin-left: auto;
 }
 
-
-
 .header-contacts {
   width: 151px;
   height: 24px;
@@ -90,67 +82,63 @@ margin-left: 40px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: var(--second-list-color);
-  
 }
 .header-contacts.link:hover,
 .header-contacts.link:focus {
   color: var(--header-hover-color);
 }
 /* первая секция */
-.section{
+.section {
   background-color: #2e2f42;
   padding-bottom: 188px;
   padding-top: 188px;
 }
 
 .section-title {
-
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
- 
+
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0;
 
-padding-bottom: 64px;
-
-
+  padding-bottom: 64px;
 }
 .oder:hover,
 .oder:focus {
-  background: #404BBF 
+  background: #404bbf;
 }
 .oder {
-font-family:inherit;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 1.18;
-cursor: pointer;
-margin: auto;
-letter-spacing: 0.04em;
-background-color: var(--header-hover-color);
-color: #FFFFFF;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  cursor: pointer;
+  margin: auto;
+  letter-spacing: 0.04em;
+  background-color: var(--header-hover-color);
+  color: #ffffff;
 
-padding: 16px 32px;
-border: 1px solid transparent;
-border-radius: 4px;
-text-align: center;
+  padding: 16px 32px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
 }
 /* вторая секция */
-.tools{
-margin-top: 120px;
-margin-bottom: 120px;
+.tools {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
-.tools-list{
+.tools-list {
   display: flex;
   gap: 24px;
   margin: 0;
-} 
-.tools-item{
-  
+  padding-left: 0;
+}
+.tools-item {
 }
 .tools-title {
   width: 264px;
@@ -183,35 +171,43 @@ margin-bottom: 120px;
   margin-top: 0px;
   margin-bottom: 74px;
 }
-.doing-img .list{
+.doing-img .list {
   gap: 24px;
   display: flex;
   text-align: center;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.doing-img{
+.doing-img {
   margin-bottom: 120px;
 }
-
 
 /* четвертая секция */
 .team {
   background-color: rgba(244, 244, 253, 1);
   padding-bottom: 120px;
 }
-.team .flex{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  gap: 24px;
-  padding: 0px 0px 32px;
-gap: 32px;
+.team .flex {
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+  flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
 
+justify-content: center;
 }
 
-.team-foto{
+.team-foto {
   margin-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
+  display: block;
+  width: 264px;
 }
-
+.team-item {
+  background: #ffffff;
+}
 
 .team-title {
   font-weight: 600;
@@ -222,7 +218,7 @@ gap: 32px;
   text-transform: capitalize;
   color: var(--first-list-color);
   margin-bottom: 72px;
-  margin-top: 0px,auto;
+  margin-top: 0px;
 }
 .team-title-nm {
   font-weight: 500;
@@ -240,12 +236,15 @@ gap: 32px;
   letter-spacing: 0.02em;
   margin-top: 0;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
+  padding-bottom: 32px;
 }
 /* футер */
 
 .footer {
   background-color: rgba(46, 47, 66, 1);
+  padding: 100px;
+  width: 1152p
 }
 
 .logo-studio-hd {
@@ -262,14 +261,31 @@ gap: 32px;
   color: rgba(244, 244, 253, 1);
 }
 .footer-text {
+  width: 264px;
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: rgba(231, 233, 252, 1);
+  margin: 0;
+  padding-top: 16px;
 }
 
 /* портфолио */
 /* главная страница */
+.portfolio{
+  padding-top: 96px;
+    padding-bottom: 120px
+}
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  align-items: center;
+  gap: 24px;
+  padding-left: 0;
+  margin-bottom: 72px;
+
+}
 
 .port:hover,
 .port:focus {
@@ -283,31 +299,61 @@ gap: 32px;
 }
 .port {
   font-family: inherit;
- font-weight: 600;
-font-size: 16px;
-line-height: var(--typical-lh);
-background-color:  #F4F4FD;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: var(--header-hover-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: var(--typical-lh);
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--header-hover-color);
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+padding: 12px 24px;
+
+}
+.picture{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+ padding-left: 0;
+ margin-bottom: 0px;
+ margin-top: 0px;
+
+}
+.picture-item{
+  background: #FFFFFF;
+  border:1px solid #E7E9FC;
 }
 
+.picture-img{
+margin-bottom: 32px;
 
+}
 .picture-title {
   font-weight: 500;
-font-size: 20px;
-line-height: 0,83;
-letter-spacing: 0.02em;
-color: var( --first-list-color);
+  font-size: 20px;
+  line-height: 0, 83;
+  letter-spacing: 0.02em;
+  color: var(--first-list-color);
+margin-top: 0px;
+padding-left: 16px;
+padding-right: 54px;
+margin-bottom: 8px;
 
 }
 .picture-text {
-font-size: 16px;
-line-height: var(--typical-lh);
-letter-spacing: 0.02em;
-color: var(--sercond-list-color);
+  font-size: 16px;
+  line-height: var(--typical-lh);
+  letter-spacing: 0.02em;
+  color: var(--sercond-list-color);
+
+  padding-bottom: 32px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 16px;
+ 
 }
 
 .visually-hidden {
