@@ -20,6 +20,11 @@ body {
   display: flex;
 }
 
+a {
+  text-decoration: none;
+
+}
+
 .link {
   text-decoration: none;
 }
@@ -28,7 +33,7 @@ body {
 }
 /* хэдер */
 .logo-studio {
-  width: 71px;
+ 
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -39,7 +44,7 @@ body {
   color: var(--first-list-color);
 }
 .logo {
-  width: 44px;
+
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -52,25 +57,44 @@ body {
   color: var(--header-hover-color);
 }
 
-.header-nav {
+.header-nav{
   font-weight: 500;
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: var(--first-list-color);
   display: flex;
-  margin-left: 40px;
+  padding-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ 
 }
+
 .header-nav.link:hover,
 .header-nav.link:focus {
   color: var(--header-hover-color);
 }
+
+.pb{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header{
+  border-bottom: 1px solid #E7E9FC;
+}
+
+
 
 .contact {
   display: flex;
   flex-direction: row;
   gap: 40px;
   margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header-contacts {
@@ -104,7 +128,7 @@ body {
   color: #ffffff;
   margin: 0;
 
-  padding-bottom: 64px;
+  margin-bottom: 64px;
 }
 .oder:hover,
 .oder:focus {
@@ -129,8 +153,8 @@ body {
 }
 /* вторая секция */
 .tools {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .tools-list {
   display: flex;
@@ -178,33 +202,43 @@ body {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 0px;
 }
 .doing-img {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 /* четвертая секция */
 .team {
   background-color: rgba(244, 244, 253, 1);
   padding-bottom: 120px;
+  padding-top: 120px;
 }
-.team .flex {
+.team-lt.flex {
 padding-left: 0;
 margin-top: 0;
 margin-bottom: 0;
   flex-direction: row;
     align-items: flex-start;
     gap: 24px;
+    padding-top: 72px;
 
 justify-content: center;
 }
 
 .team-foto {
-  margin-bottom: 32px;
+
   border-radius: 0px 0px 4px 4px;
   display: block;
   width: 264px;
 }
+
+.mit{
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
+
 .team-item {
   background: #ffffff;
 }
@@ -217,7 +251,7 @@ justify-content: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--first-list-color);
-  margin-bottom: 72px;
+  margin-bottom: 0px;
   margin-top: 0px;
 }
 .team-title-nm {
@@ -237,13 +271,13 @@ justify-content: center;
   margin-top: 0;
   text-align: center;
   margin-bottom: 0px;
-  padding-bottom: 32px;
+ 
 }
 /* футер */
 
 .footer {
   background-color: rgba(46, 47, 66, 1);
-  padding: 100px;
+  padding: 100px 0;
   width: 1152p
 }
 
