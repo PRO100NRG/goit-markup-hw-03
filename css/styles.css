@@ -360,11 +360,11 @@ padding: 12px 24px;
   background: #FFFFFF;
   border:1px solid #E7E9FC;
 }
-
-.picture-img{
-margin-bottom: 32px;
-
+.foto-text{
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .picture-title {
   font-weight: 500;
   font-size: 20px;
@@ -383,7 +383,7 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   color: var(--sercond-list-color);
 
-  padding-bottom: 32px;
+ 
   margin-bottom: 0px;
   margin-top: 0px;
   padding-left: 16px;
