@@ -363,6 +363,8 @@ padding: 12px 24px;
 .foto-text{
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-right: 54px;
+  padding-left: 16px;
 }
 
 .picture-title {
@@ -372,8 +374,8 @@ padding: 12px 24px;
   letter-spacing: 0.02em;
   color: var(--first-list-color);
 margin-top: 0px;
-padding-left: 16px;
-padding-right: 54px;
+
+
 margin-bottom: 8px;
 
 }
@@ -386,7 +388,7 @@ margin-bottom: 8px;
  
   margin-bottom: 0px;
   margin-top: 0px;
-  padding-left: 16px;
+
  
 }
 
